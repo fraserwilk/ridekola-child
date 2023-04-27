@@ -1,0 +1,18 @@
+// Use this file to overwrite the basic Bootstrap variables and add your own variables
+// To overwrite a Bootstrap variable you don´t have to touch the Bootstrap folder.
+// Just copy a variable from src/sass/assets/bootstrap5/_variables.scss, paste it here and edit the value.
+
+
+$orange: #fd7e14;
+$orange-200: #fecba1; 
+$white: #fff;
+$black: #000;
+$primary: $orange; 
+$light: $white;
+$dark: $black;
+
+
+$font-family-base: 'Poppins', sans-serif;
+$headings-font-family: 'Raleway', sans-serif;
+
+$navbar-light-color:  $white;

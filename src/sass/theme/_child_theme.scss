@@ -1,0 +1,38 @@
+section {
+}
+
+
+.frontpage-hero {
+    padding-left: 10em;
+    padding-right: 10em;
+}
+
+.frontpage-hero h1 {
+    padding-left: 10rem;
+    padding-right: 10rem;
+}
+
+
+.frontpage-2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background: #fff;
+    color: #000;
+    padding-top: 5em;
+    height: 100%;
+    padding: 5em;
+    margin: 0;
+  }
+
+  .frontpage-contact {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: orange;
+    padding: 5rem;
+  }
+
+  #main-menu li a {
+    color: $light;
+  }
