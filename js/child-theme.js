@@ -6743,19 +6743,6 @@
 	  }
 	})();
 
-	// Add your custom JS here.
-
-	// Popup signup form
-	(function ($) {
-	  $(document).ready(function ($) {
-	    if ($('#ctaModal').length > 0) {
-	      setTimeout(function () {
-	        $('#ctaModal').modal('show');
-	      }, 3000);
-	    }
-	  });
-	})(jQuery);
-
 	exports.Alert = alert;
 	exports.Button = button;
 	exports.Carousel = carousel;

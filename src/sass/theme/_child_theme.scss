@@ -1,17 +1,3 @@
-section {
-}
-
-
-.frontpage-hero {
-    padding-left: 10em;
-    padding-right: 10em;
-}
-
-.frontpage-hero h1 {
-    padding-left: 10rem;
-    padding-right: 10rem;
-}
-
 
 .frontpage-2 {
     display: flex;
@@ -29,7 +15,7 @@ section {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    background-color: orange;
+    background-color: $primary;
     padding: 5rem;
   }
 

@@ -9,30 +9,29 @@
 defined( 'ABSPATH' ) || exit;
 ?>
 
-
-<article <?php post_class('card'); ?> id="post-<?php the_ID(); ?>">
+<article <?php post_class('card mb-3 h-100'); ?> id="post-<?php the_ID(); ?>" style="max-width: 540px;">
 
 	<?php echo get_the_post_thumbnail( $post->ID, 'large', array( 'class' => 'card-img-top' ) ); ?>
 
-	<header class="entry-header card-body">
+	<div class="card-body">
 
 		<?php
 		the_title(
-			sprintf( '<h2 class="entry-title"><a href="%s" class="text-dark" rel="bookmark">', esc_url( get_permalink() ) ),
+			sprintf( '<h2 class="card-title"><a href="%s" class="text-dark" rel="bookmark">', esc_url( get_permalink() ) ),
 			'</a></h2>'
 		);
 		?>
+	</div>
+	
 
-	</header><!-- .entry-header -->
-
-	<div class="entry-content card-body text-dark">
+	<div class="card-body">
 
 		<?php
 		the_excerpt();
-		understrap_link_pages();
+		// understrap_link_pages();
 		?>
 
-	</div><!-- .entry-content -->
+	</div><!-- .card content -->
 
 
 

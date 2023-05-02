@@ -4,11 +4,6 @@
 @import "assets/bootstrap5/bootstrap";                             // <------- Loads Bootstrap5
 @import "assets/understrap/theme/understrap";  // <------- Loads the Understrap defaults. Just a few classes to incorporate BS in WP
 // @import "assets/understrap/theme/woocommerce"; // <------- Loads WooCommerce style fixes. Comment out if you aren't using WooCommerce
-@import "theme/row/two_column_hero"; // <------- Loads ACF fields
-@import "theme/row/blog_grid";
-@import "theme/row/gallery";
-@import "theme/row/blog_image";
-@import "theme/row/two_column_display";
 
 // Optional files - If you don´t use the corresponding scripts/fonts comment em out
 // @import "assets/fontawesome/font-awesome";                           // <------- Font Awesome Icon font
@@ -16,6 +11,14 @@
 
 // Any additional imported files //
 @import "theme/child_theme";                             // <------- Add your styles into this file
+@import "theme/row/frontpage_hero";
+@import "theme/row/blog_grid";
+@import "theme/row/blog_image";
+@import "theme/row/gallery";
+@import "theme/row/two_column_display";
+@import "theme/row/two_column_hero";
+@import "theme/row/jumbotron";
+@import "theme/row/faq";
 @import "assets/understrap/theme/colors";           // <-------- This creates the necessary bootstrap color classes.
 @import "assets/understrap/theme/blocks";           // <-------- This adds Bootstrap styles to blocks.
 // @import "assets/understrap/theme/contact-form7";    // <-------- Contact Form 7 - Bootstrap 4 support

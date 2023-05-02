@@ -1,15 +1,16 @@
 <section class="<?php echo get_row_layout(); ?>">
 
     <div class="container">
-
+        <div class="content-title pt-3">
+            <?php the_sub_field('content_title'); ?>
+        </div>
+        
         <div class="row">
-            <div class="content-title">
-                <?php the_sub_field('content_title'); ?>
-            </div> 
-            <div class="col-12 col-md-6">
-               
-                <div class="content-column">
-                    <?php the_sub_field('content_column'); ?>
+            
+            <!-- Left column -->
+            <div class="col-12 col-md-6 mt-5">
+                <div class="content-column-leftalign-items-start">
+                    <?php the_sub_field('content_column_left'); ?>
                 </div>
                 <div class="cta">
                     <?php 
@@ -24,9 +25,10 @@
                 </div>
 
             </div>
-            <div class="col-12 col-md-6">
-                <div class="image-column">
-                    <?php echo wp_get_attachment_image(get_sub_field('image_column'), 'full'); ?>
+            <!-- Right column -->
+            <div class="col-12 col-md-6 mt-5">
+                <div class="content-column-right">
+                    <?php the_sub_field('content_column_right') ; ?>
                 </div>
                 
             </div>

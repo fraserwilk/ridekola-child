@@ -17,13 +17,11 @@
     overflow-wrap: break-word;
 }
 
-.content-column {
-    font-size: 2em;
+.content-column-left {
+    // font-size: 2em;
     font-weight: 400;
-}
-
-.content-column, .image-column {
     padding-top: 5rem;
     padding-bottom: 5rem;
     font-size: var(--size-step-1);
 }
+

@@ -1,4 +1,5 @@
-<section class="<?php echo get_row_layout(); ?> py-5 bg-full">
+
+<section class="<?php echo get_row_layout(); ?> py-5 bg-light">
     <div class="container">
         <div class="row mb-3">
             <div class="col-12 col-md-8">

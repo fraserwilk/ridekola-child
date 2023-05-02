@@ -3,7 +3,7 @@
 
 (function($) {
 
-    $(document).ready(function($){
+    // $(document).ready(function($){
         // Popup signup form
         // if ( $('#ctaModal').length > 0 ) {
 
@@ -12,6 +12,7 @@
         // }, 3000);
     }
 
-    });
+    // });
 
-})( jQuery );
+// })( jQuery );
+)

@@ -24,11 +24,11 @@ if ( is_page_template( 'page-templates/no-title.php' ) ) {
 
 <div class="wrapper bg-dark" id="<?php echo $wrapper_id; // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped -- ok. ?>">
 
-	<div class="<?php echo esc_attr( $container ); ?>" id="content">
+	<div class="<?php echo esc_attr( $container ); ?>-fluid" id="content">
 
 		<div class="row">
 
-			<div class="col-md-12 content-area text-light pt-5" id="primary">
+			<div class="col-md-12 content-area text-light pt-0" id="primary">
 
 				<main class="site-main" id="main" role="main">
 

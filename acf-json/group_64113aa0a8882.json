@@ -1,6 +1,6 @@
 {
     "key": "group_64113aa0a8882",
-    "title": "Landing Page",
+    "title": "Front Page",
     "fields": [
         {
             "key": "field_64113aa0193ad",
@@ -17,14 +17,228 @@
                 "id": ""
             },
             "layouts": {
-                "layout_64113c85742a6": {
-                    "key": "layout_64113c85742a6",
-                    "name": "two_column_hero",
-                    "label": "Two Column Hero",
+                "layout_644b283565d04": {
+                    "key": "layout_644b283565d04",
+                    "name": "frontpage_hero",
+                    "label": "Frontpage Hero",
+                    "display": "row",
+                    "sub_fields": [
+                        {
+                            "key": "field_644b28b465d06",
+                            "label": "Hero Background",
+                            "name": "hero_background",
+                            "aria-label": "",
+                            "type": "image",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "return_format": "url",
+                            "library": "all",
+                            "min_width": "",
+                            "min_height": "",
+                            "min_size": "",
+                            "max_width": "",
+                            "max_height": "",
+                            "max_size": "",
+                            "mime_types": "",
+                            "preview_size": "medium"
+                        },
+                        {
+                            "key": "field_644b2fdb65d07",
+                            "label": "Hero Heading",
+                            "name": "hero_heading",
+                            "aria-label": "",
+                            "type": "text",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "maxlength": "",
+                            "placeholder": "",
+                            "prepend": "",
+                            "append": ""
+                        },
+                        {
+                            "key": "field_644b300465d08",
+                            "label": "Hero Content",
+                            "name": "hero_content",
+                            "aria-label": "",
+                            "type": "textarea",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "maxlength": "",
+                            "rows": "",
+                            "placeholder": "",
+                            "new_lines": ""
+                        },
+                        {
+                            "key": "field_644b301d65d09",
+                            "label": "Hero Availability Title",
+                            "name": "hero_availability_title",
+                            "aria-label": "",
+                            "type": "textarea",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "See which bikes are available in your city",
+                            "maxlength": "",
+                            "rows": "",
+                            "placeholder": "See which bikes are available in your city",
+                            "new_lines": ""
+                        },
+                        {
+                            "key": "field_644b307c65d0a",
+                            "label": "Hero Availability Dropdown",
+                            "name": "hero_availability_dropdown",
+                            "aria-label": "",
+                            "type": "select",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "choices": {
+                                "melbourne": "Melbourne",
+                                "sydney": "Sydney",
+                                "brisbane": "Brisbane"
+                            },
+                            "default_value": "Melbourne",
+                            "return_format": "value",
+                            "multiple": 0,
+                            "allow_null": 0,
+                            "ui": 0,
+                            "ajax": 0,
+                            "placeholder": ""
+                        },
+                        {
+                            "key": "field_644b30bd65d0b",
+                            "label": "Hero Availability Button",
+                            "name": "hero_availability_button",
+                            "aria-label": "",
+                            "type": "button_group",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "choices": {
+                                "See bikes": "See bikes"
+                            },
+                            "default_value": "",
+                            "return_format": "label",
+                            "allow_null": 0,
+                            "layout": "horizontal"
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                },
+                "layout_644f2e4d1afab": {
+                    "key": "layout_644f2e4d1afab",
+                    "name": "jumbotron",
+                    "label": "Jumbotron",
                     "display": "block",
                     "sub_fields": [
                         {
-                            "key": "field_6412971ce5603",
+                            "key": "field_644f2e641afad",
+                            "label": "Top Jumbo Header",
+                            "name": "top_jumbo_header",
+                            "aria-label": "",
+                            "type": "text",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "text-dark",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "maxlength": "",
+                            "placeholder": "",
+                            "prepend": "",
+                            "append": ""
+                        },
+                        {
+                            "key": "field_644f2e901afae",
+                            "label": "Top Jumbo Body",
+                            "name": "top_jumbo_body",
+                            "aria-label": "",
+                            "type": "wysiwyg",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "tabs": "all",
+                            "toolbar": "full",
+                            "media_upload": 1,
+                            "delay": 0
+                        },
+                        {
+                            "key": "field_644f2ea01afaf",
+                            "label": "Jumbo Footer",
+                            "name": "jumbo_footer",
+                            "aria-label": "",
+                            "type": "text",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "maxlength": "",
+                            "placeholder": "",
+                            "prepend": "",
+                            "append": ""
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                },
+                "layout_644f2900bfcc1": {
+                    "key": "layout_644f2900bfcc1",
+                    "name": "two_column_hero",
+                    "label": "Two Column Hero",
+                    "display": "row",
+                    "sub_fields": [
+                        {
+                            "key": "field_644f2900bfcc2",
                             "label": "Content Title",
                             "name": "content_title",
                             "aria-label": "",
@@ -44,9 +258,9 @@
                             "append": ""
                         },
                         {
-                            "key": "field_64113cc9f2a65",
-                            "label": "Content Column",
-                            "name": "content_column",
+                            "key": "field_644f2900bfcc3",
+                            "label": "Content Column Left",
+                            "name": "content_column_left",
                             "aria-label": "",
                             "type": "wysiwyg",
                             "instructions": "",
@@ -64,7 +278,27 @@
                             "delay": 0
                         },
                         {
-                            "key": "field_64113cf9f2a66",
+                            "key": "field_644f2a068a977",
+                            "label": "Content Column Right",
+                            "name": "content_column_right",
+                            "aria-label": "",
+                            "type": "wysiwyg",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "40",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "tabs": "all",
+                            "toolbar": "full",
+                            "media_upload": 1,
+                            "delay": 0
+                        },
+                        {
+                            "key": "field_644f2900bfcc4",
                             "label": "Image Column",
                             "name": "image_column",
                             "aria-label": "",
@@ -89,7 +323,7 @@
                             "preview_size": "medium"
                         },
                         {
-                            "key": "field_64114963198e8",
+                            "key": "field_644f2900bfcc5",
                             "label": "CTA Button",
                             "name": "cta_button",
                             "aria-label": "",
@@ -105,7 +339,7 @@
                             "return_format": "array"
                         },
                         {
-                            "key": "field_64114a48f3dbf",
+                            "key": "field_644f2900bfcc6",
                             "label": "CTA Button Design",
                             "name": "cta_button_design",
                             "aria-label": "",
@@ -196,6 +430,7 @@
                                 "post",
                                 "page"
                             ],
+                            "post_status": "",
                             "taxonomy": "",
                             "filters": [
                                 "search",
@@ -204,8 +439,10 @@
                             ],
                             "return_format": "object",
                             "min": "",
-                            "max": "",
-                            "elements": ""
+                            "max": 3,
+                            "elements": [
+                                "featured_image"
+                            ]
                         }
                     ],
                     "min": "",
@@ -387,6 +624,101 @@
                     ],
                     "min": "",
                     "max": ""
+                },
+                "layout_644f4f63b52f2": {
+                    "key": "layout_644f4f63b52f2",
+                    "name": "faq",
+                    "label": "FAQ Group",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_644f5c3431ce5",
+                            "label": "FAQ Heading",
+                            "name": "faq_heading",
+                            "aria-label": "",
+                            "type": "text",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "maxlength": "",
+                            "placeholder": "",
+                            "prepend": "",
+                            "append": ""
+                        },
+                        {
+                            "key": "field_644f4f86b52f4",
+                            "label": "Questions",
+                            "name": "questions",
+                            "aria-label": "",
+                            "type": "repeater",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "layout": "row",
+                            "min": 0,
+                            "max": 0,
+                            "collapsed": "",
+                            "button_label": "Add Row",
+                            "rows_per_page": 20,
+                            "sub_fields": [
+                                {
+                                    "key": "field_644f4f96b52f5",
+                                    "label": "Question",
+                                    "name": "question",
+                                    "aria-label": "",
+                                    "type": "text",
+                                    "instructions": "",
+                                    "required": 0,
+                                    "conditional_logic": 0,
+                                    "wrapper": {
+                                        "width": "",
+                                        "class": "",
+                                        "id": ""
+                                    },
+                                    "default_value": "",
+                                    "maxlength": "",
+                                    "placeholder": "",
+                                    "prepend": "",
+                                    "append": "",
+                                    "parent_repeater": "field_644f4f86b52f4"
+                                },
+                                {
+                                    "key": "field_644f4f9db52f6",
+                                    "label": "Answer",
+                                    "name": "answer",
+                                    "aria-label": "",
+                                    "type": "text",
+                                    "instructions": "",
+                                    "required": 0,
+                                    "conditional_logic": 0,
+                                    "wrapper": {
+                                        "width": "",
+                                        "class": "",
+                                        "id": ""
+                                    },
+                                    "default_value": "",
+                                    "maxlength": "",
+                                    "placeholder": "",
+                                    "prepend": "",
+                                    "append": "",
+                                    "parent_repeater": "field_644f4f86b52f4"
+                                }
+                            ]
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
                 }
             },
             "min": "",
@@ -401,6 +733,13 @@
                 "operator": "==",
                 "value": "page-templates\/fullwidthpage-ACF.php"
             }
+        ],
+        [
+            {
+                "param": "page",
+                "operator": "==",
+                "value": "14"
+            }
         ]
     ],
     "menu_order": 0,
@@ -412,5 +751,5 @@
     "active": true,
     "description": "",
     "show_in_rest": 0,
-    "modified": 1681888999
+    "modified": 1683014074
 }

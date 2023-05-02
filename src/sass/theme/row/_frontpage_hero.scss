@@ -1,0 +1,80 @@
+// CSS for Front Page Hero ACF field
+// ideas from: https://set.studio/some-simple-ways-to-make-content-look-good/
+
+/* @link https://utopia.fyi/type/calculator?c=320,16,1.25,1240,18,1.333,5,2,&s=0.75|0.5|0.25,1.5|2|3|4|6,s-l&g=s,l,xl,12 */
+
+#frontpage-hero-img {
+
+}
+
+
+
+@media (min-width: 992px) {
+    .rounded-lg-3 { border-radius: .3rem; }
+    }
+
+
+    .centered {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+
+/* .frontpage-hero {
+    // max-width: 20ch;
+    overflow-wrap: break-word;
+
+    img {
+        position: relative;
+        linear-gradient: (45deg,
+              rgba(245,70,66, 0.75),
+              rgba(8,83,156, 0.75));
+        }
+
+    .title {
+        position: absolute;
+        //font-size: 4em;
+        top: 50%;
+        left: 50%;
+        transform: translate( -50%, -50% );
+        text-align: center;
+        }
+
+    .content {
+        position: absolute;
+        font-size: 2em;
+        font-weight: 400;
+        line-height: 1.1em;
+        overflow-wrap: break-word;
+        top: 70%;
+        left: 50%;
+        transform: translate( -50%, -50% );
+        text-align: center;
+        }
+    
+    .availibility {
+        position: absolute;
+        top: 80%;
+        left: 50%;
+        transform: translate( -50%, -50% );
+        text-align: center;
+    }
+
+    .avail-button {
+        position: absolute;
+        top: 90%;
+        left: 50%;
+        transform: translate( -50%, -50% );
+        text-align: center;
+    }
+
+    .dropdown {
+        border: solid salmon 2px;
+    }
+        
+}
+ */
+
+
+
