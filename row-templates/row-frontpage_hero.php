@@ -13,13 +13,13 @@
                 <div class="row flex-lg-row align-items-center g-3 py-1 mt-lg-5 mx-5">
                     <div class="col-10 col-sm-8 col-lg-6">
                     </div>
-                    <div class="col-sm-8 ps-sm-5 ms-sm-4 align-items-center">
+                    <div class="col-sm-8 ps-sm-5 ms-sm-4">
                         <h1 class="display-5 lh-md-1 mb-md-1"><?php the_sub_field('hero_heading'); ?></h1>
                         <div class="">
                             <?php the_sub_field('hero_content'); ?>
                         </div>
 
-                        <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+                        <div class="d-grid gap-2 d-sm-flex justify-content-md-start">
                             
                             <a class="btn btn-secondary px-4 me-md-2" href="#" role="button">Sign up now!</a>
                         </div>
