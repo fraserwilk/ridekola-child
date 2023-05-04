@@ -10,10 +10,10 @@
             <img src="<?php the_sub_field('hero_background'); ?>" id="frontpage-hero-img" class="d-block mx-md-auto p-0" alt="Ride Kola" loading="lazy" ;>
 
             <div class="container col-xxl-8 px-4 py-5 position-absolute text-light">
-                <div class="row flex-lg-row align-items-center g-3 py-1 mt-lg-5">
+                <div class="row flex-lg-row align-items-center g-3 py-1 mt-lg-5 mx-5">
                     <div class="col-10 col-sm-8 col-lg-6">
                     </div>
-                    <div class="col-sm-8 ps-sm-4 ms-sm-4">
+                    <div class="col-sm-8 ps-5 ms-sm-4 align-items-center">
                         <h1 class="display-5 lh-md-1 mb-md-1"><?php the_sub_field('hero_heading'); ?></h1>
                         <div class="">
                             <?php the_sub_field('hero_content'); ?>
