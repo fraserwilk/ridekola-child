@@ -19,6 +19,14 @@
     padding: 5rem;
   }
 
-  #main-menu li a {
-    color: $light;
+  #main-nav li a {
+    color: $gray-800;
+    
   }
+  
+
+
+#main-nav li a:hover {
+  color: $primary;
+  font-weight: 700;
+}
