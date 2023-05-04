@@ -1,0 +1,13 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "npm",
+			"script": "dist-build",
+			"group": "build",
+			"problemMatcher": [],
+			"label": "npm: dist-build",
+			"detail": "node src/build/dist-build.js"
+		}
+	]
+}
