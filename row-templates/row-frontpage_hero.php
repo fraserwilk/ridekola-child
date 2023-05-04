@@ -15,7 +15,7 @@
                     </div>
                     <div class="col-sm-8 ps-sm-5 ms-sm-4">
                         <h1 class="display-5 lh-md-1 mb-md-1"><?php the_sub_field('hero_heading'); ?></h1>
-                        <div class="">
+                        <div class="p-0">
                             <?php the_sub_field('hero_content'); ?>
                         </div>
 
