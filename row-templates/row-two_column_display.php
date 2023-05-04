@@ -12,7 +12,7 @@
             <!-- Image on LEFT -->
             <div class="row">
 
-                <div class="col-12 col-md-6">
+                <div class="col-12 col-md-6 img-fluid">
                     <div class="image-column">
         
                     <?php 
@@ -25,7 +25,7 @@
                 </div>
 
                 <div class="col-12 col-md-6">
-                    <div class="content-column">
+                    <div class="content-column pt-0">
                         <?php the_sub_field('content_column'); ?>
                     </div>
                 </div>

@@ -5,24 +5,14 @@
             <?php the_sub_field('content_title'); ?>
         </div>
         
-        <div class="row">
+        <div class="row pb-5">
             
             <!-- Left column -->
             <div class="col-12 col-md-6 mt-5">
-                <div class="content-column-leftalign-items-start">
+                <div class="content-column-left align-items-start">
                     <?php the_sub_field('content_column_left'); ?>
                 </div>
-                <div class="cta">
-                    <?php 
-                        $link = get_sub_field('cta_button');
-                        if( $link ): 
-                            $link_url = $link['url'];
-                            $link_title = $link['title'];
-                            $link_target = $link['target'] ? $link['target'] : '_self';
-                            ?>
-                        <a class="btn <?php echo esc_attr( get_sub_field('cta_button_design')); ?>" target="<?php echo esc_attr( $link_target ); ?>"><?php echo esc_html( $link_title ); ?></a>
-                        <?php endif; ?>
-                </div>
+                
 
             </div>
             <!-- Right column -->

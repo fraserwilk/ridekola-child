@@ -3,16 +3,32 @@
 
 /* @link https://utopia.fyi/type/calculator?c=320,16,1.25,1240,18,1.333,5,2,&s=0.75|0.5|0.25,1.5|2|3|4|6,s-l&g=s,l,xl,12 */
 
-#frontpage-hero-img {
+#full-width-page-wrapper {
+	padding: 0;
+}
 
+#frontpage-hero-img {
+    object-fit: cover; 
+    object-position: right; 
+    width: 100%;
+    min-height: 400px;
+    padding: 0;
+    // margin-bottom: 1rem;
+    overflow: hidden;
 }
 
 
+.thumb-post img {
+    object-fit: none; /* Do not scale the image */
+    object-position: center; /* Center the image within the element */
+    width: 100%;
+    max-height: 250px;
+    margin-bottom: 1rem;
+  }
 
 @media (min-width: 992px) {
     .rounded-lg-3 { border-radius: .3rem; }
     }
-
 
     .centered {
         position: absolute;
@@ -21,60 +37,20 @@
         transform: translate(-50%, -50%);
       }
 
-/* .frontpage-hero {
-    // max-width: 20ch;
-    overflow-wrap: break-word;
 
-    img {
-        position: relative;
-        linear-gradient: (45deg,
-              rgba(245,70,66, 0.75),
-              rgba(8,83,156, 0.75));
-        }
 
-    .title {
-        position: absolute;
-        //font-size: 4em;
-        top: 50%;
-        left: 50%;
-        transform: translate( -50%, -50% );
-        text-align: center;
-        }
-
-    .content {
-        position: absolute;
-        font-size: 2em;
-        font-weight: 400;
-        line-height: 1.1em;
-        overflow-wrap: break-word;
-        top: 70%;
-        left: 50%;
-        transform: translate( -50%, -50% );
-        text-align: center;
-        }
-    
-    .availibility {
-        position: absolute;
-        top: 80%;
-        left: 50%;
-        transform: translate( -50%, -50% );
-        text-align: center;
-    }
-
-    .avail-button {
-        position: absolute;
-        top: 90%;
-        left: 50%;
-        transform: translate( -50%, -50% );
-        text-align: center;
-    }
-
-    .dropdown {
-        border: solid salmon 2px;
-    }
-        
+// Styling of Hero list points
+// remove default bullet points:
+.frontpage_hero ul {
+    list-style: none;
+    line-height: 1rem;
 }
- */
 
-
+.frontpage_hero ul li {
+    padding: 10px 50px;
+    background-image: url("http://localhost/ridekola/wp-content/uploads/2023/05/check-circle-fd7e14.svg");
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: 24px;
+}
 
