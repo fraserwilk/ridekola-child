@@ -1,0 +1,30 @@
+
+.frontpage-2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background: #fff;
+    color: #000;
+    padding-top: 5em;
+    height: 100%;
+    padding: 5em;
+    margin: 0;
+  }
+
+.frontpage-contact {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: $primary;
+  padding: 5rem;
+}
+
+#main-nav li a {
+  color: $gray-800;
+  
+}
+
+#main-nav li a:hover {
+  color: $primary;
+  font-weight: 700;
+}

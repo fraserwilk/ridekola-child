@@ -1,0 +1,29 @@
+.blog_grid {
+    background: #fff;
+}
+
+.bg-full {
+    position: relative;
+    z-index: 0;
+  }
+  
+.bg-full::before {
+  content: '';
+  position: absolute;
+  display: block;
+  top: 0;
+  left: 50%;
+  transform: translateX( -50%);
+  height: 100%;
+  width: 100vw;
+  background-color: $orange;
+  z-index: -1;
+}
+
+html {
+    overflow-x: hidden;
+    }
+
+.card-body {
+  flex: 0 1 auto;
+}
